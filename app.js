@@ -14,6 +14,7 @@ class Storage {
     window.localStorage.setItem(this.key, JSON.stringify(data))
   }
 }
+//
 //=============================GET
 const GETRequest = (url, cb) => {
   let request = new XMLHttpRequest();
